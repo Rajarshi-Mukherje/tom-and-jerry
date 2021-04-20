@@ -6,7 +6,7 @@ var jerry, jerryImg1,jerryImg2;
 function preload() {
     bg = loadImage("garden.png");
     tomImg1= loadAnimation("tomOne.png");
-    tomImg2=loadAnimation("tomTwo.png","images/tomThree.png");
+    tomImg2=loadAnimation("tomTwo.png","tomThree.png");
     tomImg3= loadAnimation("tomFour.png");
     jerryImg1=loadAnimation("jerryOne.png");
     jerryImg2= loadAnimation("jerryTwo.png","jerryThree.png");
